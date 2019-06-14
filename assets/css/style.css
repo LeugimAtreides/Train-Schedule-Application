@@ -1,0 +1,56 @@
+/* CSS for the html */
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-size: cover;
+}
+
+/* sets the background image */
+
+.bg {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* set header background */
+.header-bg {
+    background-image: url(../images/jumbotron-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+    color: white;
+    border: 3px double dodgerblue;
+    font-weight: bold;
+    
+}
+
+h1 {
+    position: relative;
+    top: -3vh;
+}
+
+
+
+.card {
+    background-color: rgba(30, 173, 255, 0.715);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#train-table {
+    color: white;
+    font-weight: bold;
+}
+    
